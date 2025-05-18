@@ -8,7 +8,7 @@ import ProgrammingLanguages from "@/components/items/ProgrammingLanguages";
 
 const LeftSidebar = () => {
   return (
-    <aside className="w-[305px] h-[4517px] left-0 top-0 flex justify-center items-start pt-10 bg-[var(--color-fondo)]">
+    <aside className="w-[305px] h-huge left-0 top-0 flex justify-center items-start pt-10 bg-[var(--color-fondo)]">
       {/* Contenedor interno */}
       <div className="w-[305px] h-[1315px] flex flex-col items-center gap-[10px]">
         {/* Sección de perfil */}

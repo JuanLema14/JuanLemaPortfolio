@@ -10,7 +10,7 @@ const HomeLayout = ({ children }: Props) => {
   return (
     <div className="flex bg-dark text-white h-hug">
       <LeftSidebar />
-      <main className="flex-1 px-6 py-4">{children}</main>
+      <main className="flex-1">{children}</main>
       <RightMenu />
     </div>
   )

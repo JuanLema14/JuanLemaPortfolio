@@ -1,11 +1,15 @@
 // pages/index.tsx
-import HomeLayout from '@/components/layouts/HomeLayout'
+import Hero from "@/components/frames/HeroSection";
+import MyKnowledge from "@/components/frames/MyKnowledge";
+import HomeLayout from "@/components/layouts/HomeLayout";
 
 export default function Home() {
   return (
     <HomeLayout>
-      <section className="text-black">
-      </section>
+      <div className="flex flex-col items-center m-0 gap-[42px]">
+        <Hero />
+        <MyKnowledge/>
+      </div>
     </HomeLayout>
-  )
+  );
 }
