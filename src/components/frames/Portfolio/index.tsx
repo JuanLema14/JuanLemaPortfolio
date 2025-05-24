@@ -71,17 +71,17 @@ export default function Portfolio() {
         >
           {projects.map((project, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-white rounded-md shadow-md overflow-hidden w-full h-full">
+              <div className="bg-[var(--color-fondo)] rounded-md shadow-md overflow-hidden w-full h-full">
                 <img
                   src={project.image}
                   alt={project.title}
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-4 text-left">
-                  <h3 className="text-lg font-semibold text-black">
+                  <h3 className="text-lg font-semibold text-[var(--color-darktext)]">
                     {project.title}
                   </h3>
-                  <p className="text-gray-600 text-sm my-2">
+                  <p className="text-gray-400 text-sm my-2">
                     {project.description}
                   </p>
                   <a
