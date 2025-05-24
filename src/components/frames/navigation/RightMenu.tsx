@@ -1,12 +1,9 @@
 'use client'
 
 import {
-  FaFacebookF,
   FaInstagram,
-  FaTwitter,
   FaLinkedinIn,
-  FaYoutube,
-  FaDribbble,
+  FaGithub,
   FaSun,
   FaCloud,
   FaMoon,
@@ -14,12 +11,9 @@ import {
 import { useEffect, useState } from 'react'
 
 const socialIcons = [
-  { icon: <FaFacebookF />, href: '#' },
-  { icon: <FaInstagram />, href: '#' },
-  { icon: <FaTwitter />, href: '#' },
-  { icon: <FaLinkedinIn />, href: '#' },
-  { icon: <FaYoutube />, href: '#' },
-  { icon: <FaDribbble />, href: '#' },
+  { icon: <FaInstagram />, href: 'https://www.instagram.com/juanlemat/' },
+  { icon: <FaLinkedinIn />, href: 'https://www.linkedin.com/in/juanlema14/' },
+  { icon: <FaGithub />, href: 'https://github.com/JuanLema14' },
 ]
 
 const themes = ['theme-sunny', 'theme-cloudy', 'theme-dark']
@@ -43,6 +37,8 @@ const RightMenu = () => {
           <a
             key={index}
             href={href}
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-[48px] h-[48px] rounded-full bg-[var(--color-accent)] flex items-center justify-center hover:scale-110 transition-transform duration-300"
           >
             <span className="text-[var(--color-darktext)] text-[18px]">{icon}</span>
