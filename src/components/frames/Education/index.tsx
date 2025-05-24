@@ -17,7 +17,6 @@ const Education = () => {
         <EducationItem
           institution="Universidad de Antioquia"
           degree="Systems Engineering"
-          location="Rionegro, Colombia"
           dates="February 2017 – Present"
           description="During this program, I have gained skills in programming, software architecture, data analysis, and agile methodologies. I have also strengthened my abilities in logical thinking, problem-solving, interface design, and process optimization—knowledge that I apply directly to my current projects."
         />

@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 const Hero = () => {
   return (
     <section className="w-[970px] h-[467.09px] flex gap-[42px] bg-[var(--color-fondo)]">
@@ -16,15 +18,25 @@ const Hero = () => {
           bring ideas to life with code, both frontend and backend.
         </p>
 
-        <button className="mt-10 px-6 py-3 bg-[var(--color-accent)] text-[var(--color-darktext)] rounded-md font-semibold w-[154px] h-[51px] hover:scale-105 transition-transform duration-300">
-          HIRE ME
-        </button>
+        <a
+          href="mailto:juan.lema1408@gmail.com"
+          className="mt-10 inline-block w-[154px] h-[51px]"
+        >
+          <button
+            type="button"
+            className="w-full hover:cursor-pointer h-full px-6 py-3 bg-[var(--color-accent)] text-[var(--color-darktext)] rounded-md font-semibold hover:scale-105 transition-transform duration-300"
+          >
+            HIRE ME
+          </button>
+        </a>
       </div>
 
       {/* Imagen Derecha */}
       <div className="w-[325.72px] h-[459.09px] mt-[8px]">
-        <img
-          src="img/hero_img.png"
+        <Image
+          src="/img/hero_img.png"
+          width={325.72}
+          height={459.09}
           alt="Juan Lema"
           className="w-full h-full object-cover"
         />

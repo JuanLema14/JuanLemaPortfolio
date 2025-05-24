@@ -1,7 +1,6 @@
 type EducationItemProps = {
   institution: string
   degree: string
-  location: string
   dates: string
   role?: string
   description: string
@@ -10,7 +9,6 @@ type EducationItemProps = {
 const EducationItem = ({
   institution,
   degree,
-  location,
   dates,
   role = "Student",
   description

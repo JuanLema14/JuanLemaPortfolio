@@ -5,6 +5,7 @@ import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import Image from "next/image";
 
 const projects = [
   {
@@ -70,7 +71,9 @@ export default function Portfolio() {
           {projects.map((project, index) => (
             <SwiperSlide key={index}>
               <div className="bg-[var(--color-fondo)] rounded-md shadow-md overflow-hidden w-full h-full">
-                <img
+                <Image
+                  width={500}
+                  height={300}
                   src={project.image}
                   alt={project.title}
                   className="w-full h-48 object-cover"
