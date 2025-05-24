@@ -10,21 +10,21 @@ const projects = [
   {
     title: "Pokedle",
     description:
-      "Un juego interactivo de adivinanza Pokémon hecho con HTML, CSS, JS y la PokeAPI.",
+      "An interactive Pokémon guessing game built with HTML, CSS, JS, and the PokeAPI.",
     image: "/img/pokedle.png",
     link: "https://pokedle-sigma.vercel.app/",
   },
   {
-    title: "Métodos de Optimización",
+    title: "Optimization Methods",
     description:
-      "Calculadora de métodos de optimización con gráficas, tablas y exportación de resultados.",
+      "Calculator for optimization methods with charts, tables, and result export.",
     image: "/img/metodos_optimizacion.png",
     link: "https://metodos-de-optimizacion.vercel.app/",
   },
   {
     title: "Inno Sistemas",
     description:
-      "Proyecto en Frontend y Backend para la Fabrica escuela, con un diseño moderno y funcional.",
+      "Frontend and Backend project for the Fabrica Escuela, with a modern and functional design.",
     image: "/img/inno_sistemas.png",
     link: "https://inno-sistemas.vercel.app/",
   },
@@ -37,12 +37,10 @@ export default function Portfolio() {
         Portfolio
       </h2>
       <p className="text-gray-400 max-w-xl mx-auto mb-10">
-        Explora algunos de los proyectos que he desarrollado, donde combino
-        creatividad con soluciones funcionales. Desde juegos interactivos hasta
-        herramientas de análisis avanzadas.
+        Explore some of the projects I have developed, where I combine creativity with functional solutions. From interactive games to advanced analysis tools.
       </p>
 
-      {/* Carousel controls personalizados */}
+      {/* Custom carousel controls */}
       <div className="relative">
         <button className="absolute left-[-40px] top-1/2 -translate-y-1/2 z-10 swiper-button-prev text-white hover:text-accent">
           <ChevronLeft className="w-6 h-6" />

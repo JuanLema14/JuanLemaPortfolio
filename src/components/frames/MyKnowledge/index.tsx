@@ -1,40 +1,47 @@
-'use client'
+"use client";
 
-import KnowledgeCard from '../../items/KnowledgeCard'
-import { FaCode, FaPaintBrush, FaBuilding, FaDraftingCompass, FaLaptopCode, FaPalette } from 'react-icons/fa'
+import KnowledgeCard from "../../items/KnowledgeCard";
+import {
+  FaCode,
+  FaPaintBrush,
+  FaBuilding,
+  FaDraftingCompass,
+  FaLaptopCode,
+  FaPalette,
+} from "react-icons/fa";
 
 const knowledgeItems = [
   {
     icon: <FaCode />,
-    title: 'Web Development',
-    caption: 'Frontend & Backend',
+    title: "Web Development",
+    caption: "Frontend & Backend",
   },
   {
     icon: <FaPaintBrush />,
-    title: 'UX/UI Design',
-    caption: 'User-centered design',
+    title: "UX/UI Design",
+    caption: "User-centered design",
   },
   {
     icon: <FaPalette />,
-    title: 'Logo Design',
-    caption: 'Brand identity solutions',
+    title: "Logo Design",
+    caption: "Brand identity solutions",
   },
   {
     icon: <FaBuilding />,
-    title: 'Architecture',
-    caption: 'System & software architecture',
+    title: "Architecture",
+    caption: "System & software architecture",
   },
   {
     icon: <FaDraftingCompass />,
-    title: 'Solutions',
-    caption: 'Creative problem solving',
+    title: "Solutions",
+    caption: "Creative problem solving",
   },
   {
     icon: <FaLaptopCode />,
-    title: 'Development',
-    caption: 'Fullstack & Agile',
+    title: "Development",
+    caption: "Fullstack & Agile",
   },
-]
+];
 
 const MyKnowledge = () => {
   return (
@@ -46,7 +53,11 @@ const MyKnowledge = () => {
 
       {/* Descripción */}
       <p className="mt-4 w-[438px] text-[15px] leading-[24px] font-normal text-[var(--color-graytext)] capitalize">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan.
+        Over 3 years of experience as a web developer, leading frontend and
+        backend projects. I’ve automated manual processes at the University of
+        Antioquia’s publishing department, developed credit systems for a
+        fintech, and built mass email solutions using AWS Lambdas. Skilled in
+        designing efficient database schemas tailored to project needs.
       </p>
 
       {/* Cards */}
@@ -61,7 +72,7 @@ const MyKnowledge = () => {
         ))}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default MyKnowledge
+export default MyKnowledge;

@@ -12,7 +12,7 @@ const EducationItem = ({
   degree,
   location,
   dates,
-  role = "Estudiante",
+  role = "Student",
   description
 }: EducationItemProps) => {
   return (
