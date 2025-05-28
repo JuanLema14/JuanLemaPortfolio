@@ -1,6 +1,6 @@
 import React from 'react'
-import LeftSidebar from '../frames/navigation/LeftSidebar'
-import RightMenu from '../frames/navigation/RightMenu'
+import LeftSidebar from '../organisms/navigation/LeftSidebar'
+import RightMenu from '../organisms/navigation/RightMenu'
 
 type Props = {
   children: React.ReactNode

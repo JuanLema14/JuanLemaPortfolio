@@ -1,10 +1,10 @@
 "use client";
 
-import About from "@/components/items/About";
-import ExtraSkills from "@/components/items/ExtraSkills";
-import Languages from "@/components/items/Languages";
-import Profile from "@/components/items/Profile";
-import ProgrammingLanguages from "@/components/items/ProgrammingLanguages";
+import About from "@/components/molecules/About";
+import ExtraSkills from "@/components/molecules/ExtraSkills";
+import Languages from "@/components/molecules/Languages";
+import Profile from "@/components/molecules/Profile";
+import ProgrammingLanguages from "@/components/molecules/ProgrammingLanguages";
 
 const LeftSidebar = () => {
   return (

@@ -1,10 +1,10 @@
 // pages/index.tsx
-import Education from "@/components/frames/Education";
-import Footer from "@/components/frames/Footer";
-import Hero from "@/components/frames/HeroSection";
-import MyKnowledge from "@/components/frames/MyKnowledge";
-import Portfolio from "@/components/frames/Portfolio";
-import HomeLayout from "@/components/layouts/HomeLayout";
+import Education from "@/components/organisms/Education";
+import Footer from "@/components/organisms/Footer";
+import Hero from "@/components/organisms/HeroSection";
+import MyKnowledge from "@/components/organisms/MyKnowledge";
+import Portfolio from "@/components/organisms/Portfolio";
+import HomeLayout from "@/components/templates/HomeLayout";
 
 export default function Home() {
   return (

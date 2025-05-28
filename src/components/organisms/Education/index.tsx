@@ -1,6 +1,6 @@
 'use client'
 
-import EducationItem from '../../items/EducationItem'
+import EducationItem from '../../molecules/EducationItem'
 
 const Education = () => {
   return (

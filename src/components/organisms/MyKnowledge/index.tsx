@@ -1,6 +1,6 @@
 "use client";
 
-import KnowledgeCard from "../../items/KnowledgeCard";
+import KnowledgeCard from "../../molecules/KnowledgeCard";
 import {
   FaCode,
   FaPaintBrush,
